@@ -7,6 +7,13 @@ Seguindo as boas práticas em orientação a objetos, abstrai o comportamento do
 - Adicionar anexos, incluindo inline
 - Valida endereços de e-mail automaticamente
 
+## Instalação
+
+```sh
+composer install
+```
+
+
 ## Configurações básicas
 Edite o arquivo `source/Config.php` e adicione suas configurações de SMTP
 ```php
