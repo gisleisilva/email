@@ -1,0 +1,25 @@
+{
+  "name": "gisleisilva/email",
+  "description": "Abstração da classe PHPMailer para agilizar o processo de envio de emails",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gisle Silva",
+      "email": "gisleisilvacruz@gmail.com",
+      "role": "Developer",
+      "homepage": "https://gisleisilva.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "phpmailer/phpmailer": "v6.5.0"
+  }
+}
